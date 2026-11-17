@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "The Hi",
   "version": "1.0",
-  "description": "Scientists reveal the hi"
+  "description": "Scientists reveal the hi",
+  "the-hi": "image/scientist-reveal-hi.png"
 }
 
