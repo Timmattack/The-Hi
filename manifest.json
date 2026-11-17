@@ -2,6 +2,12 @@
   "manifest_version": 2,
   "name": "The Hi",
   "version": "1.0",
-  "description": "Scientists reveal the hi"
+  "description": "Scientists reveal the hi",
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["hiing.js"]
+    }
+  ]
 }
 
