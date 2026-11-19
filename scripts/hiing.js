@@ -21,7 +21,7 @@ function superposerOccurrences(racine, motif, src) {
 		
 		const correspondances = [...noeud.textContent.matchAll(regex)];
 		if (correspondances.length === 0) continue;
-
+		console.log(noeud)
 		const cs = getComputedStyle(parent);
 		ctx.font = `${cs.fontStyle} ${cs.fontWeight} ${cs.fontSize} ${cs.fontFamily}`;
 
